@@ -31,4 +31,4 @@ case $operation in
         ;;
 esac
 
-# Task for singapore user is to add multiplication and divison functionality.
+# Task for singapore user is to add multiplication & divison functionality.
