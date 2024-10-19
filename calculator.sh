@@ -29,6 +29,24 @@ case $operation in
         diff=$((a - b))
         echo "Result: $a - $b = $diff"
         ;;
-esac
 
-# Task for singapore user is to add multiplication & divison functionality.
+# Task for singapore user is to add multiplication and division functionality.
+
+[cC])
+        num
+        prod=$((a * b))
+        echo "Result: $a * $b = $prod"
+        ;;
+    [dD])
+        num
+        if [[ $b -eq 0 ]]; then
+            echo "Error: Division by zero is not allowed."
+        else
+            div=$((a / b))
+            echo "Result: $a / $b = $div"
+        fi
+        ;;
+    *)
+        echo "Invalid choice. Please select a, b, c, or d."
+        ;;
+esac
