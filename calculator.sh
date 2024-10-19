@@ -30,3 +30,5 @@ case $operation in
         echo "Result: $a - $b = $diff"
         ;;
 esac
+
+# Task for singapore user is to add multiplication and divison functionality.
